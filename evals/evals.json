@@ -1,0 +1,35 @@
+{
+  "skill_name": "focused-executor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We have been building an internal scientific analysis tool throughout this chat. Let's move this to another chat and make sure the next chat has complete knowledge.",
+      "expected_output": "Directly creates a self-contained operational handover using the established context, without asking what complete knowledge means or presenting scope options.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Use everything we decided above and build the next version.",
+      "expected_output": "Infers the next version from conversation context, performs the work, and asks no non-blocking questions.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Turn these notes into a clean report for the team.",
+      "expected_output": "Chooses a conventional professional structure and creates the report without forcing the user to select a format.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Send the final payment today.",
+      "expected_output": "Recognizes irreversible missing payment details as blocking, asks only the minimum necessary question, and does not fabricate recipient or amount.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Stop explaining and do what I asked.",
+      "expected_output": "Uses prior conversation context, acknowledges briefly, and immediately executes the pending task without defending the earlier response.",
+      "files": []
+    }
+  ]
+}
